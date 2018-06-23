@@ -1,5 +1,4 @@
 #### **What is IAM**
-<small>
 n the last chapter, we created an IAM user so that our AWS CLI can operate on our account without using the AWS Console. But the IAM concept is used very frequently when dealing with security for AWS services, so it is worth understanding it in a bit more detail. Unfortunately, IAM is made up of a lot of different parts and it can be very confusing for folks that first come across it. In this chapter we are going to take a look at IAM and it’s concepts in a bit more detail.
 
 Let’s start with the official definition of IAM.
@@ -84,4 +83,3 @@ An IAM group is simply a collection of IAM users. You can use groups to specify 
 This should give you a quick idea of IAM and some of its concepts. We will be referring to a few of these in the coming chapters. Next let’s quickly look at another AWS concept; the ARN.
 
 [[Back]](https://github.com/eksant/serverless-react-aws)
-</small>

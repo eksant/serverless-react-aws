@@ -1,5 +1,4 @@
 #### **What is Serverless**
-<small>
 Traditionally, we’ve built and deployed web applications where we have some degree of control over the HTTP requests that are made to our server. Our application runs on that server and we are responsible for provisioning and managing the resources for it. There are a few issues with this.
 
 1. We are charged for keeping the server up even when we are not serving out any requests.
@@ -26,4 +25,3 @@ Next, let’s take a deeper look into the advantages of serverless including the
 
 
 [[Back]](https://github.com/eksant/serverless-react-aws)
-</small>
