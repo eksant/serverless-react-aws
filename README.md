@@ -1,5 +1,5 @@
 # Serverless and React on AWS
-Build a full-stack production ready note taking app using Serverless and React on AWS (**Lamda**, **IAM**, **S3**, **Cognito**, **API Gateway**, **DynamoDB**, **Route 53**, **CloudFront**, **Certificate Manager**). Follow our step-by-step open-source tutorials with screenshots and code samples. The source is taken from several websites and serlerless-stack site.
+Build a full-stack production ready note taking app using Serverless and React on AWS ([Lambda](https://aws.amazon.com/lambda/), [IAM](https://aws.amazon.com/iam/), [S3](https://aws.amazon.com/s3/), [Cognito](https://aws.amazon.com/cognito/), [API Gateway](https://aws.amazon.com/api-gateway/), [DynamoDB](https://aws.amazon.com/dynamodb/), [Route 53](https://aws.amazon.com/route53/), [CloudFront](https://aws.amazon.com/cloudfront/), [Certificate Manager](https://aws.amazon.com/certificate-manager/), [Amazon CloudWatch](https://aws.amazon.com/cloudwatch/)). Follow our step-by-step open-source tutorials with screenshots and code samples. The source is taken from several websites and serlerless-stack site.
 
 ```
 Part I - The Basics
