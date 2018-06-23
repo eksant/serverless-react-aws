@@ -34,15 +34,15 @@ Part I - The Basics
     * [Cognito user pool vs identity pool](https://github.com/eksant/serverless-react-aws/blob/master/docs/deploying-backend/cognito-user-pool-vs-identity-pool.md)
   * [Test the APIs](https://github.com/eksant/serverless-react-aws/blob/master/docs/deploying-backend/test-the-apis.md)
 * SETTING UP A REACT APP
-  * Create a new React.js app
-    * Add app favicons
-    * Set up custom fonts
-    * Set up Bootstrap
-  * Handle routes with React Router
-    * Create containers
-    * Adding links in the navbar
-    * Handle 404s
-  * Configure AWS Amplify
+  * [Create a new React.js app](https://github.com/eksant/serverless-react-aws/blob/master/docs/setting-react-app/create-a-new-reactjs-app.md)
+    * [Add app favicons](https://github.com/eksant/serverless-react-aws/blob/master/docs/setting-react-app/add-app-favicons.md)
+    * [Set up custom fonts](https://github.com/eksant/serverless-react-aws/blob/master/docs/setting-react-app/setup-custom-fonts.md)
+    * [Set up Bootstrap](https://github.com/eksant/serverless-react-aws/blob/master/docs/setting-react-app/setup-bootstrap.md)
+  * [Handle routes with React Router](https://github.com/eksant/serverless-react-aws/blob/master/docs/setting-react-app/handle-routes-with-react-router.md)
+    * [Create containers](https://github.com/eksant/serverless-react-aws/blob/master/docs/setting-react-app/create-containers.md)
+    * [Adding links in the navbar](https://github.com/eksant/serverless-react-aws/blob/master/docs/setting-react-app/adding-links-in-the-navbar.md)
+    * [Handle 404s](https://github.com/eksant/serverless-react-aws/blob/master/docs/setting-react-app/handle-404s.md)
+  * [Configure AWS Amplify](https://github.com/eksant/serverless-react-aws/blob/master/docs/setting-react-app/configure-aws-amplify.md)
 * BUILDING A REACT APP
   * Create a login page
     * Login with AWS Cognito

@@ -33,4 +33,4 @@ Finally, the ease of scaling is thanks in part to DynamoDB which gives us near i
 Great! now that you are convinced on why you should build serverless apps; let’s get started.
 
 
-[[Back]](https://gthub.com/eksant/serverless-react-aws)
+[[Back]](https://github.com/eksant/serverless-react-aws)
