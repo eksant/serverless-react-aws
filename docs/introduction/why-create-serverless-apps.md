@@ -1,5 +1,5 @@
-#### **AWS Lambda**
-<small>
+#### **Why Create Serverless Apps?**
+<sub>
 It is important to address why it is worth learning how to create serverless apps. There are a couple of reasons why serverless apps are favored over traditional server hosted apps.
 
 1. Low maintenance
@@ -11,4 +11,5 @@ The biggest benefit by far is that you only need to worry about your code and no
 The main reason it’s cheaper to run serverless applications is that you are effectively only paying per request. So when your application is not being used, you are not being charged for it. Let’s do a quick breakdown of what it would cost for us to run our note taking application. We’ll assume that we have 1000 daily active users making 20 requests per day to our API and storing around 10MB of files on S3. Here is a very rough calculation of our costs.
 
 
-</small>
+[[Back]](https://github.com/eksant/serverless-react-aws)
+</sub>

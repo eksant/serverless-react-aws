@@ -1,5 +1,5 @@
 #### **What is Serverless**
-<small>
+<sub>
 Traditionally, we’ve built and deployed web applications where we have some degree of control over the HTTP requests that are made to our server. Our application runs on that server and we are responsible for provisioning and managing the resources for it. There are a few issues with this.
 
 1. We are charged for keeping the server up even when we are not serving out any requests.
@@ -24,4 +24,6 @@ While this example is in JavaScript (or Node.js), AWS Lambda supports Python, Ja
 
 Next, let’s take a deeper look into the advantages of serverless including the cost of running our demo app.
 
-</small>
+
+[[Back]](https://github.com/eksant/serverless-react-aws)
+</sub>
