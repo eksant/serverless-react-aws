@@ -17,13 +17,13 @@ The above command needs [NPM](https://www.npmjs.com/), a package manager for Jav
 In your working directory; create a project using a Node.js starter. We’ll go over some of the details of this starter project in the next chapter.
 
 ```
-$ serverless install --url https://github.com/AnomalyInnovations/serverless-nodejs-starter --name notes-app-api
+$ serverless create --template aws-nodejs --path serverless-nodejs-starter
 ```
 
 Go into the directory for our backend api project.
 
 ```
-$ cd notes-app-api
+$ cd serverless-nodejs-starter
 ```
 
 Now the directory should contain a few files including, the **handler.js** and **serverless.yml**.
