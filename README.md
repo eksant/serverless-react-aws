@@ -7,10 +7,10 @@ Build a full-stack production ready note taking app using Serverless and React o
   * [What is Serverless](https://github.com/eksant/serverless-react-aws/blob/master/docs/introduction/what-is-serverless.md)
   * [Why Create Serverless Apps?](https://github.com/eksant/serverless-react-aws/blob/master/docs/introduction/why-create-serverless-apps.md)
 * SET UP YOUR AWS ACCOUNT
-  * [Create an AWS Account](https://github.com/eksant/serverless-react-aws/blob/master/docs/introduction/create-an-aws-account.md)
-  * [Create an IAM User](https://github.com/eksant/serverless-react-aws/blob/master/docs/introduction/create-an-iam-user.md)
-    * [What is IAM](https://github.com/eksant/serverless-react-aws/blob/master/docs/introduction/what-is-iam.md)
-    * [What is an ARN](https://github.com/eksant/serverless-react-aws/blob/master/docs/introduction/create-an-iam-user.md)
-  * [Create an IAM User](https://github.com/eksant/serverless-react-aws/blob/master/docs/introduction/create-an-iam-user.md)
+  * [Create an AWS Account](https://github.com/eksant/serverless-react-aws/blob/master/docs/setup-aws/create-an-aws-account.md)
+  * [Create an IAM User](https://github.com/eksant/serverless-react-aws/blob/master/docs/setup-aws/create-an-iam-user.md)
+    * [What is IAM](https://github.com/eksant/serverless-react-aws/blob/master/docs/setup-aws/what-is-iam.md)
+    * [What is an ARN](https://github.com/eksant/serverless-react-aws/blob/master/docs/setup-aws/create-an-iam-user.md)
+  * [Create an IAM User](https://github.com/eksant/serverless-react-aws/blob/master/docs/setup-aws/create-an-iam-user.md)
 * SETTING UP THE SERVERLESS BACKEND
 </small>
