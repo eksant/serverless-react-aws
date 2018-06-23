@@ -10,6 +10,29 @@ The biggest benefit by far is that you only need to worry about your code and no
 
 The main reason it’s cheaper to run serverless applications is that you are effectively only paying per request. So when your application is not being used, you are not being charged for it. Let’s do a quick breakdown of what it would cost for us to run our note taking application. We’ll assume that we have 1000 daily active users making 20 requests per day to our API and storing around 10MB of files on S3. Here is a very rough calculation of our costs.
 
+| Service     | Rate                                                                             | Cost      |
+|-------------|----------------------------------------------------------------------------------|-----------|
+| Cognito     | Free<sub>[1]<sub>                                                                | $0.00     |
+| API Gateway | $3.5/M reqs + $0.09/GB transfer                                                  | $2.20     |
+| Lambda      | Free<sub>[2]</sub>                                                               | $0.00     |
+| DynamoDB    | $0.0065/hr 10 write units, $0.0065/hr 50 read units<sub>[3]</sub>                | $2.80     |
+| S3          | $0.023/GB storage, $0.005/K PUT, $0.004/10K GET, $0.0025/M objects<sub>[4]</sub> | $0.24     |
+| CloudFront  | $0.085/GB transfer + $0.01/10K reqs                                              | $0.86     |
+| Route53     | $0.50 per hosted zone + $0.40/M queries                                          | $0.50     |
+| Certificate | Manager Free                                                                     | $0.00     |
+| **Total**   |                                                                                  | **$6.10** |
 
-[[Back]](https://github.com/eksant/serverless-react-aws)
+<sub>[1] Cognito is free for < 50K MAUs and $0.00550/MAU onwards.</sub>  
+<sub>[2] Lambda is free for < 1M requests and 400000GB-secs of compute.</sub>    
+<sub>[3] DynamoDB gives 25GB of free storage.</sub>  
+<sub>[4] S3 gives 1GB of free transfer.</sub>  
+
+So that comes out to $6.10 per month. Additionally, a .com domain would cost us $12 per year, making that the biggest up front cost for us. But just keep in mind that these are very rough estimates. Real-world usage patterns are going to be very different. However, these rates should give you a sense of how the cost of running a serverless application is calculated.
+
+Finally, the ease of scaling is thanks in part to DynamoDB which gives us near infinite scale and Lambda that simply scales up to meet the demand. And of course our frontend is a simple static single page app that is almost guaranteed to always respond instantly thanks to CloudFront.
+
+Great! now that you are convinced on why you should build serverless apps; let’s get started.
+
+
+[[Back]](https://gthub.com/eksant/serverless-react-aws)
 </small>
