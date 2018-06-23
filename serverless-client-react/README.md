@@ -3,7 +3,7 @@ This repo is for the frontend React app that I build over the course of the tuto
 
 Online Demo : [here](http://notes-app-client-eksa.s3-website-ap-southeast-1.amazonaws.com/)
 
-![Notes-App_demo]()
+![Notes-App_demo](https://raw.githubusercontent.com/eksant/serverless-react-aws/master/serverless-client-react/public/notes-app-demo.gif)
 
 #### Usage
 This project is created using [Create React App](https://github.com/facebookincubator/create-react-app).
