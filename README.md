@@ -1,5 +1,5 @@
 # Serverless and React on AWS
-Build a full-stack production ready note taking app using Serverless and React on AWS (Lamda, IAM, S3, Cognito, API Gateway, DynamoDB, Route 53, CloudFront, Certificate Manager). Follow our step-by-step open-source tutorials with screenshots and code samples. The source is taken from several websites and serlerless-stack site.
+Build a full-stack production ready note taking app using Serverless and React on AWS (**Lamda**, **IAM**, **S3**, **Cognito**, **API Gateway**, **DynamoDB**, **Route 53**, **CloudFront**, **Certificate Manager**). Follow our step-by-step open-source tutorials with screenshots and code samples. The source is taken from several websites and serlerless-stack site.
 
 ```
 Part I - The Basics
@@ -67,17 +67,17 @@ Part I - The Basics
     * Create a route that redirects
     * Use the redirect routes
     * Redirect on login
-  * DEPLOYING A REACT APP ON AWS
-    * Deploy the Frontend
-      * Create an S3 bucket
-      * Deploy to S3
-      * Create a CloudFront distribution
-      * Set up your domain with CloudFront
-      * Set up www domain redirect
-      * Set up SSL
-    * Deploy updates
-      * Update the app
-      * Deploy again
+* DEPLOYING A REACT APP ON AWS
+  * Deploy the Frontend
+    * Create an S3 bucket
+    * Deploy to S3
+    * Create a CloudFront distribution
+    * Set up your domain with CloudFront
+    * Set up www domain redirect
+    * Set up SSL
+  * Deploy updates
+    * Update the app
+    * Deploy again
 
 ```
 Part II - Automation
