@@ -21,21 +21,22 @@ Near the bottom of the output for this command, you will find the Service Inform
 Service Information
 service: notes-app-api
 stage: prod
-region: us-east-1
+region: ap-southeast-1
+stack: notes-app-api-prod
 api keys:
   None
 endpoints:
-  POST - https://ly55wbovq4.execute-api.us-east-1.amazonaws.com/prod/notes
-  GET - https://ly55wbovq4.execute-api.us-east-1.amazonaws.com/prod/notes/{id}
-  GET - https://ly55wbovq4.execute-api.us-east-1.amazonaws.com/prod/notes
-  PUT - https://ly55wbovq4.execute-api.us-east-1.amazonaws.com/prod/notes/{id}
-  DELETE - https://ly55wbovq4.execute-api.us-east-1.amazonaws.com/prod/notes/{id}
+  POST - https://p03ksxh3z4.execute-api.ap-southeast-1.amazonaws.com/prod/notes
+  GET - https://p03ksxh3z4.execute-api.ap-southeast-1.amazonaws.com/prod/notes/{id}
+  GET - https://p03ksxh3z4.execute-api.ap-southeast-1.amazonaws.com/prod/notes
+  PUT - https://p03ksxh3z4.execute-api.ap-southeast-1.amazonaws.com/prod/notes/{id}
+  DELETE - https://p03ksxh3z4.execute-api.ap-southeast-1.amazonaws.com/prod/notes/{id}
 functions:
-  notes-app-api-prod-create
-  notes-app-api-prod-get
-  notes-app-api-prod-list
-  notes-app-api-prod-update
-  notes-app-api-prod-delete
+  create: notes-app-api-prod-create
+  get: notes-app-api-prod-get
+  list: notes-app-api-prod-list
+  update: notes-app-api-prod-update
+  delete: notes-app-api-prod-delete
 ```
 
 This has a list of the API endpoints that were created. Make a note of these endpoints as we are going to use them later while creating our frontend. Also make a note of the region and the id in these endpoints, we are going to use them in the coming chapters. In our case, us-east-1 is our API Gateway Region and ly55wbovq4 is our API Gateway ID.
