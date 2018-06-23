@@ -1,7 +1,9 @@
 # Serverless and React on AWS
 Build a full-stack production ready note taking app using Serverless and React on AWS. Follow our step-by-step open-source tutorials with screenshots and code samples. The source is taken from several websites and serlerless-stack site.
 
-```Part I - The Basics```
+```
+Part I - The Basics
+```
 
 #### **Table of Contents**
 * INTRODUCTION  
@@ -27,7 +29,17 @@ Build a full-stack production ready note taking app using Serverless and React o
   * [Add an update note API](https://github.com/eksant/serverless-react-aws/blob/master/docs/building-rest-api/add-an-update-note-api.md)
   * [Add a delete note API](https://github.com/eksant/serverless-react-aws/blob/master/docs/building-rest-api/add-a-delete-note-api.md)
 * DEPLOYING THE BACKEND
-  * Deploy the APIs
-  * Create a Cognito identity pool
-    * Cognito user pool vs identity pool
-  * Test the APIs
+  * [Deploy the APIs](https://github.com/eksant/serverless-react-aws/blob/master/docs/deploying-backend/deploy-the-apis.md)
+  * [Create a Cognito identity pool](https://github.com/eksant/serverless-react-aws/blob/master/docs/deploying-backend/create-a-cognito-identity-pool.md)
+    * [Cognito user pool vs identity pool](https://github.com/eksant/serverless-react-aws/blob/master/docs/deploying-backend/cognito-user-pool-vs-identity-pool.md)
+  * [Test the APIs](https://github.com/eksant/serverless-react-aws/blob/master/docs/deploying-backend/test-the-apis.md)
+* SETTING UP A REACT APP
+  * Create a new React.js app
+    * Add app favicons
+    * Set up custom fonts
+    * Set up Bootstrap
+  * Handle routes with React Router
+    * Create containers
+    * Adding links in the navbar
+    * Handle 404s
+  * Configure AWS Amplify
