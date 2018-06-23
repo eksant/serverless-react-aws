@@ -1,4 +1,4 @@
-#### **Configure the AWS CLI**
+### **Configure the AWS CLI**
 To make it easier to work with a lot of the AWS services, we are going to use the AWS CLI.
 
 #### **Install the AWS CLI**

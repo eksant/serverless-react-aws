@@ -1,7 +1,9 @@
 # Serverless and React on AWS
 Build a full-stack production ready note taking app using Serverless and React on AWS. Follow our step-by-step open-source tutorials with screenshots and code samples. The source is taken from several websites and serlerless-stack site.
 
-### **Table of Contents**
+```Part I - The Basics```
+
+#### **Table of Contents**
 * INTRODUCTION  
   * [What is Serverless](https://github.com/eksant/serverless-react-aws/blob/master/docs/introduction/what-is-serverless.md)
   * [Why Create Serverless Apps?](https://github.com/eksant/serverless-react-aws/blob/master/docs/introduction/why-create-serverless-apps.md)
@@ -18,4 +20,14 @@ Build a full-stack production ready note taking app using Serverless and React o
     * [Create a Cognito test user](https://github.com/eksant/serverless-react-aws/blob/master/docs/setting-serverless/create-a-cognito-test-user.md)
   * [Set up the Serverless Framework](https://github.com/eksant/serverless-react-aws/blob/master/docs/setting-serverless/setup-the-serverless-framework.md)
     * [Add support for ES6/ES7 JavaScript](https://github.com/eksant/serverless-react-aws/blob/master/docs/setting-serverless/add-support-for-es6-es7-javascript.md)
-* 
+* BUILDING A SERVERLESS REST API
+  * [Add a create note API](https://github.com/eksant/serverless-react-aws/blob/master/docs/building-rest-api/add-a-create-note-api.md)
+  * [Add a get note API](https://github.com/eksant/serverless-react-aws/blob/master/docs/building-rest-api/add-a-get-note-api.md)
+  * [Add a list all the notes API](https://github.com/eksant/serverless-react-aws/blob/master/docs/building-rest-api/add-a-list-all-the-notes-api.md)
+  * [Add an update note API](https://github.com/eksant/serverless-react-aws/blob/master/docs/building-rest-api/add-an-update-note-api.md)
+  * [Add a delete note API](https://github.com/eksant/serverless-react-aws/blob/master/docs/building-rest-api/add-a-delete-note-api.md)
+* DEPLOYING THE BACKEND
+  * Deploy the APIs
+  * Create a Cognito identity pool
+    * Cognito user pool vs identity pool
+  * Test the APIs

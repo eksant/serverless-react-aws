@@ -1,4 +1,4 @@
-#### **What is Serverless**
+### **What is Serverless**
 Traditionally, we’ve built and deployed web applications where we have some degree of control over the HTTP requests that are made to our server. Our application runs on that server and we are responsible for provisioning and managing the resources for it. There are a few issues with this.
 
 1. We are charged for keeping the server up even when we are not serving out any requests.

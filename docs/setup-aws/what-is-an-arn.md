@@ -1,4 +1,4 @@
-#### **What is an ARN**
+### **What is an ARN**
 In the last chapter while we were looking at IAM policies we looked at how you can specify a resource using its ARN. Let’s take a better look at what ARN is.
 
 Here is the official definition:

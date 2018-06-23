@@ -1,4 +1,4 @@
-#### **Create a DynamoDB Table**
+### **Create a DynamoDB Table**
 To build the backend for our notes app, it makes sense that we first start by thinking about how the data is going to be stored. We are going to use [DynamoDB](https://aws.amazon.com/dynamodb/) to do this.
 
 #### **About DynamoDB**

@@ -1,4 +1,4 @@
-#### **Why Create Serverless Apps?**
+### **Why Create Serverless Apps?**
 It is important to address why it is worth learning how to create serverless apps. There are a couple of reasons why serverless apps are favored over traditional server hosted apps.
 
 1. Low maintenance

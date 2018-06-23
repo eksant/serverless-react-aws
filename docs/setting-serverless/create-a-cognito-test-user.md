@@ -1,4 +1,4 @@
-#### **Create a Cognito Test User**
+### **Create a Cognito Test User**
 In this chapter, we are going to create a test user for our Cognito User Pool. We are going to need this user to test the authentication portion of our app later.
 
 #### **Create User**

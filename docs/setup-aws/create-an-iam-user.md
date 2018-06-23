@@ -1,4 +1,4 @@
-#### **Create an IAM User**
+### **Create an IAM User**
 Amazon IAM (Identity and Access Management) enables you to manage users and user permissions in AWS. You can create one or more IAM users in your AWS account. You might create an IAM user for someone who needs access to your AWS console, or when you have a new application that needs to make API calls to AWS. This is to add an extra layer of security to your AWS account.
 
 In this chapter, we are going to create a new IAM user for a couple of the AWS related tools we are going to be using later.

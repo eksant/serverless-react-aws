@@ -5,7 +5,7 @@ Amazon Cognito User Pool makes it easy for developers to add sign-up and sign-in
 
 In this chapter, we are going to create a User Pool for our notes app.
 
-#### **Create User Pool**
+### **Create User Pool**
 From your [AWS Console](https://console.aws.amazon.com/), select **Cognito** from the list of services.
 
 ![Select Amazon Cognito Service screenshot](https://d33wubrfki0l68.cloudfront.net/f6286d9a9aee2103eeb1057c73dd2ee8225682a4/f883c/assets/cognito-user-pool/select-cognito-service.png)
