@@ -1,6 +1,6 @@
 # Serverless and React on AWS
-<sup>
-Build a full-stack production ready note taking app using Serverless and React on AWS. Follow our step-by-step open-source tutorials with screenshots and code samples.
+<small>
+Build a full-stack production ready note taking app using Serverless and React on AWS. Follow our step-by-step open-source tutorials with screenshots and code samples. The source is taken from several websites and serlerless-stack site.
 
 ### **Table of Contents**
 * INTRODUCTION  
@@ -8,4 +8,4 @@ Build a full-stack production ready note taking app using Serverless and React o
   * [Why Create Serverless Apps?]((https://github.com/eksant/serverless-react-aws/blob/master/docs/introduction/why-create-serverless-apps.md))
 * SET UP YOUR AWS ACCOUNT
 * SETTING UP THE SERVERLESS BACKEND
-</sup>
+</small>

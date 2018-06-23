@@ -1,5 +1,5 @@
 #### **Why Create Serverless Apps?**
-<sub>
+<small>
 It is important to address why it is worth learning how to create serverless apps. There are a couple of reasons why serverless apps are favored over traditional server hosted apps.
 
 1. Low maintenance
@@ -12,4 +12,4 @@ The main reason it’s cheaper to run serverless applications is that you are ef
 
 
 [[Back]](https://github.com/eksant/serverless-react-aws)
-</sub>
+</small>
