@@ -23,7 +23,7 @@ Select **Attach existing policies directly**.
 
 Search for **AdministratorAccess** and select the policy, then select **Next: Review**.
 
-We can provide a more fine-grained policy here and we cover this later in the [Customize the Serverless IAM Policy](https://serverless-stack.com/chapters/customize-the-serverless-iam-policy.html) chapter. But for now, let’s continue with this.
+We can provide a more fine-grained policy here and we cover this later in the [Customize the Serverless IAM Policy](../extra-credit-backend/customize-the-serverless-iam-policy.md) chapter. But for now, let’s continue with this.
 ![alt text](https://d33wubrfki0l68.cloudfront.net/d45b1766bd371b496dba47a1cd8e6b731304f3ee/a2cd0/assets/iam-user/added-admin-policy.png)
 
 Select **Create user**.

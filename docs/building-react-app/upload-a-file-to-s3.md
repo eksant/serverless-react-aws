@@ -5,7 +5,7 @@ Let’s now add an attachment to our note. The flow we are using here is very si
 2. The file is uploaded to S3 under the user’s folder and we get a key back.
 3. Create a note with the file key as the attachment.
 
-We are going to use the Storage module that AWS Amplify has. If you recall, that back in the [Create a Cognito identity pool](https://serverless-stack.com/chapters/create-a-cognito-identity-pool.html) chapter we allow a logged in user access to a folder inside our S3 Bucket. AWS Amplify stores directly to this folder if we want to privately store a file.
+We are going to use the Storage module that AWS Amplify has. If you recall, that back in the [Create a Cognito identity pool](../deploying-backend/create-a-cognito-identity-pool.md) chapter we allow a logged in user access to a folder inside our S3 Bucket. AWS Amplify stores directly to this folder if we want to privately store a file.
 
 Also, just looking ahead a bit; we will be uploading files when a note is created and when a note is edited. So let’s create a simple convenience method to help with that.
 
