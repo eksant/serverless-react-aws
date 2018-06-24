@@ -21,7 +21,7 @@ In the chapter we are going to look to do the following:
 
 Let’s get started.
 
-#### Enable API Gateway CloudWatch Logs <a name="enable-api-gateway-cloudwatch-logs"></a>
+<a name="enable-api-gateway-cloudwatch-logs">#### Enable API Gateway CloudWatch Logs</a>
 This is a two step process. First, we need to create an IAM role that allows API Gateway to write logs in CloudWatch. Then we need to turn on logging for our API project.
 
 First, log in to your [AWS Console](https://console.aws.amazon.com/) and select IAM from the list of services.
@@ -89,7 +89,8 @@ In the **Logs** tab:
 
 Scroll to the bottom of the page and click **Save Changes**. Now our API Gateway requests should be logged via CloudWatch.
 
-#### Enable Lambda CloudWatch Logs <a name="enable-lambda-cloudwatch-logs"></a>
+<a name="enable-lambda-cloudwatch-logs"></a>
+#### Enable Lambda CloudWatch Logs
 Lambda CloudWatch logs are enabled by default. It tracks the duration and max memory usage for each execution. You can write additional information to CloudWatch via console.log. For example:
 
 ```
