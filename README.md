@@ -138,14 +138,14 @@ Extra Credit
 ```
 
 * BACKEND
-  * API Gateway and Lambda Logs
-  * Debugging Serverless API Issues
-  * Serverless environment variables
-  * Stages in Serverless Framework
-  * Configure multiple AWS profiles
-  * Customize the Serverless IAM Policy
-  * Connect to API Gateway with IAM auth
-  * Serverless Node.js Starter
+  * [API Gateway and Lambda Logs](./docs/extra-credit-backend/api-gateway-and-lambda-logs.md)
+  * [Debugging Serverless API Issues](./docs/extra-credit-backend/debugging-serverless-api-issues.md)
+  * [Serverless environment variables](./docs/extra-credit-backend/serverless-environment-variables.md)
+  * [Stages in Serverless Framework](./docs/extra-credit-backend/stages-in-serverless-framework.md)
+  * [Configure multiple AWS profiles](./docs/extra-credit-backend/configure-multiple-aws-profiles.md)
+  * [Customize the Serverless IAM Policy](./docs/extra-credit-backend/customize-the-serverless-iam-policy.md)
+  * [Connect to API Gateway with IAM auth](./docs/extra-credit-backend/connect-to-api-gateway-with-iam-auth.md)
+  * [Serverless Node.js Starter](./docs/extra-credit-backend/serverless-nodejs-starter.md)
 * FRONTEND
   * [Code Splitting in Create React App](./docs/extra-credit-frontend/code-splitting-in-create-react-app.md)
   * [Environments in Create React App](./docs/extra-credit-frontend/environments-in-create-react-app.md)
