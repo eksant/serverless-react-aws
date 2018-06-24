@@ -121,11 +121,7 @@ Part II - Automation
     * [Custom Domains in Netlify](./docs/automating-react-deployments/custom-domain-in-netlify.md)
   * [Frontend workflow](./docs/automating-react-deployments/frontend-workflow.md)
 * CONCLUSION
-  * Wrapping up
-  * Futher reading
-  * Giving back
-  * Changelog
-  * Staying up to date
+  * [Futher reading](./docs/conclusion/further-reading.md)
 
 ```
 Extra Credit
