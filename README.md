@@ -100,15 +100,15 @@ Part II - Automation
     * Load secrets from env.yml
   * Test the billing API
 * ADDING UNIT TESTS
-  * Unit tests in Serverless
+  * [Unit tests in Serverless](./docs/adding-unit-test/unit-tests-in-serverless.md)
 * AUTOMATING SERVERLESS DEPLOYMENTS
-  * Automating serverless deployments
-    * Setting up your project on Seed
-    * Configure secrets in Seed
-    * Deploying through Seed
-    * Set custom domains through Seed
-  * Test the configured APIs
-  * Monitoring deployments in Seed
+  * [Automating serverless deployments](./docs/automating-serverless-deployments/automating-serverless-deployments.md)
+    * [Setting up your project on Seed](./docs/automating-serverless-deployments/setting-up-your-project-on-seed.md)
+    * [Configure secrets in Seed](./docs/automating-serverless-deployments/configure-secrets-in-seed.md)
+    * [Deploying through Seed](./docs/automating-serverless-deployments/deploying-through-seed.md)
+    * [Set custom domains through Seed](./docs/automating-serverless-deployments/set-custom-domains-through-seed.md)
+  * [Test the configured APIs](./docs/automating-serverless-deployments/test-the-configured-apis.md)
+  * [Monitoring deployments in Seed](./docs/automating-serverless-deployments/monitoring-deployments-in-seed.md)
 * CONNECT TO THE NEW BACKEND
   * Initialize the frontend repo
     * Manage environments in Create React App
