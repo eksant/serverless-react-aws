@@ -84,7 +84,7 @@ Part II - Automation
 ```
 
 * INTRODUCTION
-  * Getting production ready
+  * [Getting production ready](./docs/introduction/getting-production-ready.md)
 * CREATE A NEW BACKEND
   * Initialize the backend repo
     * Organize the backend repo
