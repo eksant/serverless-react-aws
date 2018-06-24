@@ -85,17 +85,14 @@ Part II - Automation
 
 * INTRODUCTION
   * [Getting production ready](./docs/introduction/getting-production-ready.md)
-* CREATE A NEW BACKEND
-  * Initialize the backend repo
-    * Organize the backend repo
 * INFRASTRUCTURE AS CODE
-  * What is Infrastructure as Code?
-    * Configure DynamoDB in Serverless
-    * Configure S3 in Serverless
-    * Configure Cognito User Pool in Serverless
-    * Configure Cognito Identity Pool in Serverless
-  * Use environment variables in Lambda functions
-  * Deploy your serverless infrastructure
+  * [What is Infrastructure as Code?](./docs/infractructure-code/what-is-infrastructure-as-code.md)
+    * [Configure DynamoDB in Serverless](./docs/infractructure-code/configure-dynamodb-in-serverless.md)
+    * [Configure S3 in Serverless](./docs/infractructure-code/configure-s3-in-serverless.md)
+    * [Configure Cognito User Pool in Serverless](./docs/infractructure-code/configure-cognito-user-pool-in-serverless.md)
+    * [Configure Cognito Identity Pool in Serverless](./docs/infractructure-code/configure-cognito-identity-pool-in-serverless.md)
+  * [Use environment variables in Lambda functions](./docs/infractructure-code/use-environment-variables-in-lambda-functions.md)
+  * [Deploy your serverless infrastructure](./docs/infractructure-code/deploy-your-serverless-infrastructure.md)
 * ADDING A STRIPE BILLING API
   * Working with 3rd party APIs
     * Setup a Stripe account
