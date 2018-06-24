@@ -68,16 +68,16 @@ Part I - The Basics
     * [Use the redirect routes](./docs/building-react-app/use-the-redirect-routes.md)
     * [Redirect on login](./docs/building-react-app/redirect-on-login.md)
 * DEPLOYING A REACT APP ON AWS
-  * [Deploy the Frontend](./docs/deploying-react-app/.md)
-    * [Create an S3 bucket](./docs/deploying-react-app/.md)
-    * [Deploy to S3](./docs/deploying-react-app/.md)
-    * [Create a CloudFront distribution](./docs/deploying-react-app/.md)
-    * [Set up your domain with CloudFront](./docs/deploying-react-app/.md)
-    * [Set up www domain redirect](./docs/deploying-react-app/.md)
-    * [Set up SSL](./docs/deploying-react-app/.md)
-  * [Deploy updates](./docs/deploying-react-app/.md)
-    * [Update the app](./docs/deploying-react-app/.md)
-    * [Deploy again](./docs/deploying-react-app/.md)
+  * [Deploy the Frontend](./docs/deploying-react-app/deploy-the-frontend.md)
+    * [Create an S3 bucket](./docs/deploying-react-app/create-an-s3-bucket.md)
+    * [Deploy to S3](./docs/deploying-react-app/deploy-to-s3.md)
+    * [Create a CloudFront distribution](./docs/deploying-react-app/create-a-cloudfront-distribution.md)
+    * [Set up your domain with CloudFront](./docs/deploying-react-app/setup-your-domain-with-cloudfront.md)
+    * [Set up www domain redirect](./docs/deploying-react-app/setup-www-domain-redirect.md)
+    * [Set up SSL](./docs/deploying-react-app/setup-ssl.md)
+  * [Deploy updates](./docs/deploying-react-app/deploy-updates.md)
+    * [Update the app](./docs/deploying-react-app/update-the-app.md)
+    * [Deploy again](./docs/deploying-react-app/deploy-again.md)
 
 ```
 Part II - Automation
