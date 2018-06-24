@@ -147,5 +147,5 @@ Extra Credit
   * Connect to API Gateway with IAM auth
   * Serverless Node.js Starter
 * FRONTEND
-  * Code Splitting in Create React App
-  * Environments in Create React App
+  * [Code Splitting in Create React App](./docs/extra-credit-frontend/code-splitting-in-create-react-app.md)
+  * [Environments in Create React App](./docs/extra-credit-frontend/environments-in-create-react-app.md)
