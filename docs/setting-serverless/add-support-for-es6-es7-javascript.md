@@ -1,14 +1,14 @@
 ### **Add Support for ES6/ES7 JavaScript**
 AWS Lambda recently added support for Node.js v8.10. The supported syntax is a little different when compared to the frontend React app we’ll be working on a little later. It makes sense to use similar ES features across both parts of the project – specifically, we’ll be relying on ES imports/exports in our handler functions. To do this we will be transpiling our code using [Babel](https://babeljs.io/) and [Webpack 4](https://webpack.github.io/). Serverless Framework supports plugins to do this automatically. We are going to use the serverless-webpack plugin.
 
-All this has been added in the previous chapter using the [serverless-nodejs-starter](https://serverless-stack.com/chapters/serverless-nodejs-starter.html). We created this starter for a couple of reasons:
+We created this starter for a couple of reasons:
 
 * Use a similar version of JavaScript in the frontend and backend
 * Ensure transpiled code still has the right line numbers for error messages
 * Allow you to run your backend API locally
 * And add support for unit tests
 
-If you recall we installed this starter using the serverless install --url https://github.com/AnomalyInnovations/serverless-nodejs-starter --name my-project command. This is telling Serverless Framework to use the starter as a template to create our project.
+If you recall we installed this starter using the serverless install --url https://github.com/eksant/serverless-react-aws/serverless-nodejs-starter --name my-project command. This is telling Serverless Framework to use the starter as a template to create our project.
 
 In this chapter, let’s quickly go over how it’s doing this so you’ll be able to make changes in the future if you need to.
 
