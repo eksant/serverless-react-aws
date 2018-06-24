@@ -109,20 +109,17 @@ Part II - Automation
     * [Set custom domains through Seed](./docs/automating-serverless-deployments/set-custom-domains-through-seed.md)
   * [Test the configured APIs](./docs/automating-serverless-deployments/test-the-configured-apis.md)
   * [Monitoring deployments in Seed](./docs/automating-serverless-deployments/monitoring-deployments-in-seed.md)
-* CONNECT TO THE NEW BACKEND
-  * Initialize the frontend repo
-    * Manage environments in Create React App
 * ADDING A BILLING FORM
   * Create a settings page
     * Add Stripe keys to config
     * Create a billing form
     * Connect the billing form
 * AUTOMATING REACT APP DEPLOYMENTS
-  * Automating React Deployments
-    * Create a build script
-    * Setting up your project on Netlify
-    * Custom Domains in Netlify
-  * Frontend workflow
+  * [Automating React Deployments](./docs/automating-react-deployments/automating-react-deployments.md)
+    * [Create a build script](./docs/automating-react-deployments/create-a-build-script.md)
+    * [Setting up your project on Netlify](./docs/automating-react-deployments/setting-up-your-project-on-netlify.md)
+    * [Custom Domains in Netlify](./docs/automating-react-deployments/custom-domain-in-netlify.md)
+  * [Frontend workflow](./docs/automating-react-deployments/frontend-workflow.md)
 * CONCLUSION
   * Wrapping up
   * Futher reading
