@@ -44,13 +44,13 @@ Part I - The Basics
     * [Handle 404s](https://github.com/eksant/serverless-react-aws/blob/master/docs/setting-react-app/handle-404s.md)
   * [Configure AWS Amplify](https://github.com/eksant/serverless-react-aws/blob/master/docs/setting-react-app/configure-aws-amplify.md)
 * BUILDING A REACT APP
-  * Create a login page
-    * Login with AWS Cognito
-    * Add the session to the state
-    * Load the state from the session
-    * Clear the session on logout
-    * Redirect on login and logout
-    * Give feedback while logging in
+  * [Create a login page](./building-react-app/create-a-login-page.md)
+    * [Login with AWS Cognito]
+    * [Add the session to the state]
+    * [Load the state from the session]
+    * [Clear the session on logout]
+    * [Redirect on login and logout]
+    * [Give feedback while logging in]
   * Create a signup page
     * Create the signup form
     * Signup with AWS Cognito
