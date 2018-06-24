@@ -7,50 +7,50 @@ Part I - The Basics
 
 #### **Table of Contents**
 * INTRODUCTION  
-  * [What is Serverless](https://github.com/eksant/serverless-react-aws/blob/master/docs/introduction/what-is-serverless.md)
-  * [Why Create Serverless Apps?](https://github.com/eksant/serverless-react-aws/blob/master/docs/introduction/why-create-serverless-apps.md)
+  * [What is Serverless](./docs/introduction/what-is-serverless.md)
+  * [Why Create Serverless Apps?](./docs/introduction/why-create-serverless-apps.md)
 * SET UP YOUR AWS ACCOUNT
-  * [Create an AWS Account](https://github.com/eksant/serverless-react-aws/blob/master/docs/setup-aws/create-an-aws-account.md)
-  * [Create an IAM User](https://github.com/eksant/serverless-react-aws/blob/master/docs/setup-aws/create-an-iam-user.md)
-    * [What is IAM](https://github.com/eksant/serverless-react-aws/blob/master/docs/setup-aws/what-is-iam.md)
-    * [What is an ARN](https://github.com/eksant/serverless-react-aws/blob/master/docs/setup-aws/what-is-an-arn.md)
-  * [Configure the AWS CLI](https://github.com/eksant/serverless-react-aws/blob/master/docs/setup-aws/configure-the-aws-cli.md)
+  * [Create an AWS Account](./docs/setup-aws/create-an-aws-account.md)
+  * [Create an IAM User](./docs/setup-aws/create-an-iam-user.md)
+    * [What is IAM](./docs/setup-aws/what-is-iam.md)
+    * [What is an ARN](./docs/setup-aws/what-is-an-arn.md)
+  * [Configure the AWS CLI](./docs/setup-aws/configure-the-aws-cli.md)
 * SETTING UP THE SERVERLESS BACKEND
-  * [Create a DynamoDB table](https://github.com/eksant/serverless-react-aws/blob/master/docs/setting-serverless/create-a-dynamodb-table.md)
-  * [Create an S3 bucket for file uploads](https://github.com/eksant/serverless-react-aws/blob/master/docs/setting-serverless/create-an-s3-bucket-for-file-uploads.md)
-  * [Create a Cognito user pool](https://github.com/eksant/serverless-react-aws/blob/master/docs/setting-serverless/create-a-cognito-user-pool.md)
-    * [Create a Cognito test user](https://github.com/eksant/serverless-react-aws/blob/master/docs/setting-serverless/create-a-cognito-test-user.md)
-  * [Set up the Serverless Framework](https://github.com/eksant/serverless-react-aws/blob/master/docs/setting-serverless/setup-the-serverless-framework.md)
-    * [Add support for ES6/ES7 JavaScript](https://github.com/eksant/serverless-react-aws/blob/master/docs/setting-serverless/add-support-for-es6-es7-javascript.md)
+  * [Create a DynamoDB table](./docs/setting-serverless/create-a-dynamodb-table.md)
+  * [Create an S3 bucket for file uploads](./docs/setting-serverless/create-an-s3-bucket-for-file-uploads.md)
+  * [Create a Cognito user pool](./docs/setting-serverless/create-a-cognito-user-pool.md)
+    * [Create a Cognito test user](./docs/setting-serverless/create-a-cognito-test-user.md)
+  * [Set up the Serverless Framework](./docs/setting-serverless/setup-the-serverless-framework.md)
+    * [Add support for ES6/ES7 JavaScript](./docs/setting-serverless/add-support-for-es6-es7-javascript.md)
 * BUILDING A SERVERLESS REST API
-  * [Add a create note API](https://github.com/eksant/serverless-react-aws/blob/master/docs/building-rest-api/add-a-create-note-api.md)
-  * [Add a get note API](https://github.com/eksant/serverless-react-aws/blob/master/docs/building-rest-api/add-a-get-note-api.md)
-  * [Add a list all the notes API](https://github.com/eksant/serverless-react-aws/blob/master/docs/building-rest-api/add-a-list-all-the-notes-api.md)
-  * [Add an update note API](https://github.com/eksant/serverless-react-aws/blob/master/docs/building-rest-api/add-an-update-note-api.md)
-  * [Add a delete note API](https://github.com/eksant/serverless-react-aws/blob/master/docs/building-rest-api/add-a-delete-note-api.md)
+  * [Add a create note API](./docs/building-rest-api/add-a-create-note-api.md)
+  * [Add a get note API](./docs/building-rest-api/add-a-get-note-api.md)
+  * [Add a list all the notes API](./docs/building-rest-api/add-a-list-all-the-notes-api.md)
+  * [Add an update note API](./docs/building-rest-api/add-an-update-note-api.md)
+  * [Add a delete note API](./docs/building-rest-api/add-a-delete-note-api.md)
 * DEPLOYING THE BACKEND
-  * [Deploy the APIs](https://github.com/eksant/serverless-react-aws/blob/master/docs/deploying-backend/deploy-the-apis.md)
-  * [Create a Cognito identity pool](https://github.com/eksant/serverless-react-aws/blob/master/docs/deploying-backend/create-a-cognito-identity-pool.md)
-    * [Cognito user pool vs identity pool](https://github.com/eksant/serverless-react-aws/blob/master/docs/deploying-backend/cognito-user-pool-vs-identity-pool.md)
-  * [Test the APIs](https://github.com/eksant/serverless-react-aws/blob/master/docs/deploying-backend/test-the-apis.md)
+  * [Deploy the APIs](./docs/deploying-backend/deploy-the-apis.md)
+  * [Create a Cognito identity pool](./docs/deploying-backend/create-a-cognito-identity-pool.md)
+    * [Cognito user pool vs identity pool](./docs/deploying-backend/cognito-user-pool-vs-identity-pool.md)
+  * [Test the APIs](./docs/deploying-backend/test-the-apis.md)
 * SETTING UP A REACT APP
-  * [Create a new React.js app](https://github.com/eksant/serverless-react-aws/blob/master/docs/setting-react-app/create-a-new-reactjs-app.md)
-    * [Add app favicons](https://github.com/eksant/serverless-react-aws/blob/master/docs/setting-react-app/add-app-favicons.md)
-    * [Set up custom fonts](https://github.com/eksant/serverless-react-aws/blob/master/docs/setting-react-app/setup-custom-fonts.md)
-    * [Set up Bootstrap](https://github.com/eksant/serverless-react-aws/blob/master/docs/setting-react-app/setup-bootstrap.md)
-  * [Handle routes with React Router](https://github.com/eksant/serverless-react-aws/blob/master/docs/setting-react-app/handle-routes-with-react-router.md)
-    * [Create containers](https://github.com/eksant/serverless-react-aws/blob/master/docs/setting-react-app/create-containers.md)
-    * [Adding links in the navbar](https://github.com/eksant/serverless-react-aws/blob/master/docs/setting-react-app/adding-links-in-the-navbar.md)
-    * [Handle 404s](https://github.com/eksant/serverless-react-aws/blob/master/docs/setting-react-app/handle-404s.md)
-  * [Configure AWS Amplify](https://github.com/eksant/serverless-react-aws/blob/master/docs/setting-react-app/configure-aws-amplify.md)
+  * [Create a new React.js app](./docs/setting-react-app/create-a-new-reactjs-app.md)
+    * [Add app favicons](./docs/setting-react-app/add-app-favicons.md)
+    * [Set up custom fonts](./docs/setting-react-app/setup-custom-fonts.md)
+    * [Set up Bootstrap](./docs/setting-react-app/setup-bootstrap.md)
+  * [Handle routes with React Router](./docs/setting-react-app/handle-routes-with-react-router.md)
+    * [Create containers](./docs/setting-react-app/create-containers.md)
+    * [Adding links in the navbar](./docs/setting-react-app/adding-links-in-the-navbar.md)
+    * [Handle 404s](./docs/setting-react-app/handle-404s.md)
+  * [Configure AWS Amplify](./docs/setting-react-app/configure-aws-amplify.md)
 * BUILDING A REACT APP
-  * [Create a login page](./building-react-app/create-a-login-page.md)
-    * [Login with AWS Cognito]
-    * [Add the session to the state]
-    * [Load the state from the session]
-    * [Clear the session on logout]
-    * [Redirect on login and logout]
-    * [Give feedback while logging in]
+  * [Create a login page](./doc/building-react-app/create-a-login-page.md)
+    * [Login with AWS Cognito](./doc/building-react-app/login-with-aws-cognito.md)
+    * [Add the session to the state](./doc/building-react-app/add-the-session-to-the-state.md)
+    * [Load the state from the session](./doc/building-react-app/load-the-state-from-the-session.md)
+    * [Clear the session on logout](./doc/building-react-app/clear-the-session-on-logout.md)
+    * [Redirect on login and logout](./doc/building-react-app/redirect-on-login-and-logout.md)
+    * [Give feedback while logging in](./doc/building-react-app/give-feedback-while-logging-in.md)
   * Create a signup page
     * Create the signup form
     * Signup with AWS Cognito
