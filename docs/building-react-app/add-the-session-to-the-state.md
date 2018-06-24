@@ -149,7 +149,7 @@ handleLogout = event => {
 }
 ```
 
-Now head over to your browser and try logging in with the admin credentials we created in the [Create a Cognito Test User](./docs/setting-serverless/create-a-cognito-test-user.md) chapter. You should see the Logout button appear right away.
+Now head over to your browser and try logging in with the admin credentials we created in the [Create a Cognito Test User](../docs/setting-serverless/create-a-cognito-test-user.md) chapter. You should see the Logout button appear right away.
 
 ![Login state updated screenshot](https://d33wubrfki0l68.cloudfront.net/d69a94c474b5cd613bd82bb5c5aa2bc907fc718c/85052/assets/login-state-updated.png)
 
