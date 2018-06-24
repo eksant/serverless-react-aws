@@ -44,40 +44,40 @@ Part I - The Basics
     * [Handle 404s](./docs/setting-react-app/handle-404s.md)
   * [Configure AWS Amplify](./docs/setting-react-app/configure-aws-amplify.md)
 * BUILDING A REACT APP
-  * [Create a login page](./doc/building-react-app/create-a-login-page.md)
-    * [Login with AWS Cognito](./doc/building-react-app/login-with-aws-cognito.md)
-    * [Add the session to the state](./doc/building-react-app/add-the-session-to-the-state.md)
-    * [Load the state from the session](./doc/building-react-app/load-the-state-from-the-session.md)
-    * [Clear the session on logout](./doc/building-react-app/clear-the-session-on-logout.md)
-    * [Redirect on login and logout](./doc/building-react-app/redirect-on-login-and-logout.md)
-    * [Give feedback while logging in](./doc/building-react-app/give-feedback-while-logging-in.md)
-  * Create a signup page
-    * Create the signup form
-    * Signup with AWS Cognito
-  * Add the create note page
-    * Call the create API
-    * Upload a file to S3
-  * List all the notes
-    * Call the list API
-  * Display a note
-    * Render the note form
-    * Save changes to a note
-    * Delete a note
-  * Set up secure pages
-    * Create a route that redirects
-    * Use the redirect routes
-    * Redirect on login
+  * [Create a login page](./docs/building-react-app/create-a-login-page.md)
+    * [Login with AWS Cognito](./docs/building-react-app/login-with-aws-cognito.md)
+    * [Add the session to the state](./docs/building-react-app/add-the-session-to-the-state.md)
+    * [Load the state from the session](./docs/building-react-app/load-the-state-from-the-session.md)
+    * [Clear the session on logout](./docs/building-react-app/clear-the-session-on-logout.md)
+    * [Redirect on login and logout](./docs/building-react-app/redirect-on-login-and-logout.md)
+    * [Give feedback while logging in](./docs/building-react-app/give-feedback-while-logging-in.md)
+  * [Create a signup page](./docs/building-react-app/create-a-signup-page.md)
+    * [Create the signup form](./docs/building-react-app/create-the-signup-form.md)
+    * [Signup with AWS Cognito](./docs/building-react-app/signup-with-aws-cognito.md)
+  * [Add the create note page](./docs/building-react-app/.md)
+    * [Call the create API](./docs/building-react-app/.md)
+    * [Upload a file to S3](./docs/building-react-app/.md)
+  * [List all the notes](./docs/building-react-app/.md)
+    * [Call the list API](./docs/building-react-app/.md)
+  * [Display a note](./docs/building-react-app/.md)
+    * [Render the note form](./docs/building-react-app/.md)
+    * [Save changes to a note](./docs/building-react-app/.md)
+    * [Delete a note](./docs/building-react-app/.md)
+  * [Set up secure pages](./docs/building-react-app/.md)
+    * [Create a route that redirects](./docs/building-react-app/.md)
+    * [Use the redirect routes](./docs/building-react-app/.md)
+    * [Redirect on login](./docs/building-react-app/.md)
 * DEPLOYING A REACT APP ON AWS
-  * Deploy the Frontend
-    * Create an S3 bucket
-    * Deploy to S3
-    * Create a CloudFront distribution
-    * Set up your domain with CloudFront
-    * Set up www domain redirect
-    * Set up SSL
-  * Deploy updates
-    * Update the app
-    * Deploy again
+  * [Deploy the Frontend](./docs/deploying-react-app/.md)
+    * [Create an S3 bucket](./docs/deploying-react-app/.md)
+    * [Deploy to S3](./docs/deploying-react-app/.md)
+    * [Create a CloudFront distribution](./docs/deploying-react-app/.md)
+    * [Set up your domain with CloudFront](./docs/deploying-react-app/.md)
+    * [Set up www domain redirect](./docs/deploying-react-app/.md)
+    * [Set up SSL](./docs/deploying-react-app/.md)
+  * [Deploy updates](./docs/deploying-react-app/.md)
+    * [Update the app](./docs/deploying-react-app/.md)
+    * [Deploy again](./docs/deploying-react-app/.md)
 
 ```
 Part II - Automation
