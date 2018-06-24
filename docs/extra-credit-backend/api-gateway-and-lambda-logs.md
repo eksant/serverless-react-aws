@@ -14,14 +14,17 @@ In the serverless environment, we have lesser control over the underlying infras
 
 In the chapter we are going to look to do the following:
 
-* [Enable API Gateway CloudWatch Logs](#enable-api-gateway-cloudwatch-logs)
-* [Enable Lambda CloudWatch Logs](#enable-lambda-cloudwatch-logs)
-* [Viewing API Gateway CloudWatch Logs](#viewing-api-gateway-cloudwatch-logs)
-* [Viewing Lambda CloudWatch Logs](#viewing-lambda-cloudwatch-logs)
+- [**API Gateway and Lambda Logs**](#api-gateway-and-lambda-logs)
+  - [Types of Logs](#types-of-logs)
+  - [Enable API Gateway CloudWatch Logs](#enable-api-gateway-cloudwatch-logs)
+  - [Enable Lambda CloudWatch Logs](#enable-lambda-cloudwatch-logs)
+  - [Viewing API Gateway CloudWatch Logs](#viewing-api-gateway-cloudwatch-logs)
+  - [Viewing Lambda CloudWatch Logs](#viewing-lambda-cloudwatch-logs)
 
 Let’s get started.
 
-<a name="enable-api-gateway-cloudwatch-logs">#### Enable API Gateway CloudWatch Logs</a>
+<a name="enable-api-gateway-cloudwatch-logs"></a>
+#### Enable API Gateway CloudWatch Logs
 This is a two step process. First, we need to create an IAM role that allows API Gateway to write logs in CloudWatch. Then we need to turn on logging for our API project.
 
 First, log in to your [AWS Console](https://console.aws.amazon.com/) and select IAM from the list of services.
@@ -100,7 +103,8 @@ export function main(event, context, callback) {
 }
 ```
 
-#### Viewing API Gateway CloudWatch Logs <a name="viewing-api-gateway-cloudwatch-logs"></a>
+<a name="viewing-api-gateway-cloudwatch-logs"></a>
+#### Viewing API Gateway CloudWatch Logs
 CloudWatch groups log entries into **Log Groups** and then further into **Log Streams**. Log Groups and Log Streams can mean different things for different AWS services. For API Gateway, when logging is first enabled in an API project’s stage, API Gateway creates 1 log group for the stage, and 300 log streams in the group ready to store log entries. API Gateway picks one of these streams when there is an incoming request.
 
 To view API Gateway logs, log in to your [AWS Console](https://console.aws.amazon.com/) and select CloudWatch from the list of services.
@@ -125,7 +129,8 @@ This shows you the log entries grouped by request.
 
 Note that two consecutive groups of logs are not necessarily two consecutive requests in real time. This is because there might be other requests that are processed in between these two that were picked up by one of the other log streams.
 
-#### Viewing Lambda CloudWatch Logs <a name="viewing-lambda-cloudwatch-logs"></a>
+<a name="viewing-lambda-cloudwatch-logs"></a>
+#### Viewing Lambda CloudWatch Logs
 For Lambda, each function has its own log group. And the log stream rotates if a new version of the Lambda function has been deployed or if it has been idle for some time.
 
 To view Lambda logs, select **Logs** again from the left panel. Then select the first log group prefixed with **/aws/lambda/** followed by the function name.
